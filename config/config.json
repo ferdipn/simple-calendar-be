@@ -1,0 +1,10 @@
+{
+    "development": {
+        "username": "ferdipn",
+        "password": "pasport",
+        "database": "abba-test",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "dialect": "mysql"
+    }
+}

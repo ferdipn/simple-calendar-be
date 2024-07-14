@@ -1,0 +1,27 @@
+{
+  "name": "abba-test-be",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "migrate": "node migrations/migrate.js",
+    "seed": "node seeders/seeder.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "mysql2": "^3.10.2",
+    "sequelize": "^6.37.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
+  }
+}
